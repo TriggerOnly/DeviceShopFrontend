@@ -1,0 +1,13 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Arial', 'Verdana', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F5F5 !important;
+}
+
+@media (min-width: 1200px) {
+  body .css-5c1adp-MuiContainer-root {
+    max-width: 2000px !important;
+    padding: 0px;
+  }
+}

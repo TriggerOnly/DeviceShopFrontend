@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 54px)
+}
+
+.card {
+    width: 600px;
+    border: none;
+    background-color: #F5F5F5 !important;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+  }
+
+.input {
+    margin-top: 10px;
+}
+
+.butn {
+    margin-top: 30px;
+    align-self: self-end;
+}

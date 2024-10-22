@@ -1,0 +1,24 @@
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.dropDownList{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.count {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    min-width: 160px
+}

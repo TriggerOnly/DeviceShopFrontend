@@ -1,0 +1,60 @@
+.deviceCard {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    width: 90%;
+}
+
+.list {
+    display: flex;
+}
+
+.cardContent {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.deviceImage {
+    width: 200px;
+    height: auto; 
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.cardBody {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 1; 
+}
+
+.textContent {
+    flex-grow: 1;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.button {
+    margin-bottom: 10px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.count {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.price {
+    margin-bottom: 0;
+}

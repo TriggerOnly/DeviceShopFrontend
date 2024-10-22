@@ -1,0 +1,43 @@
+.deviceCard {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.cardContent {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.deviceImage {
+    width: 200px;
+    height: auto; 
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.cardBody {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 1; 
+}
+
+.textContent {
+    flex-grow: 1;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.button {
+    margin-bottom: 10px;
+}
+
+.price {
+    margin-bottom: 0;
+}
